@@ -1,0 +1,144 @@
+
+body {
+    text-align: center;
+    margin: 0 0 50px 0;
+    background-color: rgb(61, 59, 59);
+    color: rgb(233, 223, 225);
+    font-family: Roboto;
+}
+
+header {
+    background-color: black; 
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: rgb(233, 223, 225);
+    font-family: 'Krona One';
+    text-align: center;
+    margin:0;
+    padding-top: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: rgb(233, 223, 225);
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+header nav ul li a:hover {
+    color: rgb(221, 112, 130);
+}
+
+.image1, .image2, .image3 {
+    border-radius: 3%;
+    width: 80%;
+    margin: auto;  
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    padding-top: 20px;
+}
+
+p {
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+form label {
+    display: block;
+}
+
+form input, form textarea {
+    width:90%;
+    margin-bottom: 20px;
+    background-color: darkgrey;
+}
+
+form textarea {
+    height: 60px;
+}
+
+button {
+    margin-bottom: 15px;
+}
+
+main ul {
+   list-style: none;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(233, 223, 225);
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+main a:hover {
+    color: rgb(221, 112, 130);
+}
+
+@media all and (min-width: 800px){
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+}
+
+header nav {
+    margin-top: 8px;
+}
+  
+.item {
+    text-align: left;
+    padding: 20px;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.image2 {
+    width:60%;
+}
+
+.image3 {
+    margin:0;
+}
+
+main ul {
+    padding-left: 0;
+}
+
+}
