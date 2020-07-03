@@ -85,17 +85,34 @@ button {
 
 main ul {
    list-style: none;
+   text-align: center;
+   padding-left: 0;
 }
 
 main a {
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(233, 223, 225);
     font-weight: bold;
-    padding-right: 40px;
 }
 
 main a:hover {
     color: rgb(221, 112, 130);
+}
+
+@media all and (min-width: 500px){
+    p{
+        width: 80%;
+    }
+
+    main ul {
+        margin: auto;
+        padding-left: 30px;
+    }
+
+     main a {
+        padding-right: 40px;
+    }
+
 }
 
 @media all and (min-width: 800px){
@@ -128,6 +145,9 @@ header nav {
     margin-right: 50px;
 }
 
+p{
+    width:100%;
+}
 
 .image2 {
     width:60%;
@@ -139,6 +159,8 @@ header nav {
 
 main ul {
     padding-left: 0;
+    margin-left:0;
+    text-align: left;
 }
 
 }
